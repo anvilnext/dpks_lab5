@@ -1,0 +1,1 @@
+cmd_/home/ubuntu1/repos/busybox/_install/lab5/hello.ko := ccache arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ubuntu1/repos/busybox/_install/lab5/hello.ko /home/ubuntu1/repos/busybox/_install/lab5/hello.o /home/ubuntu1/repos/busybox/_install/lab5/hello.mod.o ;  true
